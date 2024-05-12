@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1f42bf5f-6095-439a-9bf8-8b201c09d05c" name="Changes" comment="- Added main.py&#10;- added Images directory with images&#10;- added data.csv">
-      <change afterPath="$PROJECT_DIR$/images/photo.jpeg" afterDir="false" />
+    <list default="true" id="1f42bf5f-6095-439a-9bf8-8b201c09d05c" name="Changes" comment="-Added columns&#10;- Added Portfolio Image&#10;-Added description">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
@@ -92,7 +91,15 @@
       <option name="project" value="LOCAL" />
       <updated>1715518883828</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="-Added columns&#10;- Added Portfolio Image&#10;-Added description">
+      <option name="closed" value="true" />
+      <created>1715519869127</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1715519869127</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -110,6 +117,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Initial Commit" />
     <MESSAGE value="- Added main.py&#10;- added Images directory with images&#10;- added data.csv" />
-    <option name="LAST_COMMIT_MESSAGE" value="- Added main.py&#10;- added Images directory with images&#10;- added data.csv" />
+    <MESSAGE value="-Added columns&#10;- Added Portfolio Image&#10;-Added description" />
+    <option name="LAST_COMMIT_MESSAGE" value="-Added columns&#10;- Added Portfolio Image&#10;-Added description" />
   </component>
 </project>
