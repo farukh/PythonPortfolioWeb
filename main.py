@@ -1,8 +1,8 @@
 import streamlit as st
 import pandas
+
 st.set_page_config(layout='wide')
 col1, col2 = st.columns(2)
-
 
 with col1:
     st.image('images/photo.jpeg')
@@ -16,17 +16,27 @@ with col2:
 content = """Below you can find some of app that I have develop in Python. Feel free to contact me."""
 st.write(content)
 
-col3, col4 = st.columns(2)
+# Columns with ratio
+col3, empty_col,  col4 = st.columns([1.5,0.5,1.5])
 df = pandas.read_csv('data.csv', sep=';')
 
 with col3:
     for index, row in df.iterrows():
         if index % 2 != 0:
             st.header(row['title'])
+            st.write(row['description'])
+            st.image('images/'+row['image'])
+            st.write(f'[Source Code]({row['url']})')
+
 with col4:
     for index, row in df.iterrows():
         if index % 2 == 0:
             st.header(row['title'])
+            st.write(row['description'])
+            st.image('images/'+row['image'])
+            st.write(f'[Source Code]({row['url']})')
+
+
 # another way to iterate df rows is to show first 10 rows in col3 by using
 # " for index, row in df[:10].iterrows(): " and  col4 show all after 10 using
 # " for index, row in df[10:].iterrows():

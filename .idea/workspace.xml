@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1f42bf5f-6095-439a-9bf8-8b201c09d05c" name="Changes" comment="Day 21&#10;- Added Portfolio description">
+    <list default="true" id="1f42bf5f-6095-439a-9bf8-8b201c09d05c" name="Changes" comment="Day 22&#10;- render app titles in two columns">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
@@ -29,21 +29,21 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "farukh"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;farukh&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/farukh/PythonPortfolioWeb.git",
-    "accountId": "da35c143-1f37-4701-81f1-d1f1f8324292"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/farukh/PythonPortfolioWeb.git&quot;,
+    &quot;accountId&quot;: &quot;da35c143-1f37-4701-81f1-d1f1f8324292&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 7
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
   <component name="ProjectId" id="2gMqwUGvYABittkn7JqyHZaw2jR" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -52,13 +52,13 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "development"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;development&quot;
   }
-}]]></component>
+}</component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -107,7 +107,15 @@
       <option name="project" value="LOCAL" />
       <updated>1715520387022</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Day 22&#10;- render app titles in two columns">
+      <option name="closed" value="true" />
+      <created>1715526257284</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1715526257284</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -127,6 +135,7 @@
     <MESSAGE value="- Added main.py&#10;- added Images directory with images&#10;- added data.csv" />
     <MESSAGE value="-Added columns&#10;- Added Portfolio Image&#10;-Added description" />
     <MESSAGE value="Day 21&#10;- Added Portfolio description" />
-    <option name="LAST_COMMIT_MESSAGE" value="Day 21&#10;- Added Portfolio description" />
+    <MESSAGE value="Day 22&#10;- render app titles in two columns" />
+    <option name="LAST_COMMIT_MESSAGE" value="Day 22&#10;- render app titles in two columns" />
   </component>
 </project>
