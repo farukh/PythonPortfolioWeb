@@ -1,22 +1,28 @@
 import smtplib, ssl
-host = "smtp.gmail.com"
-port = 465
-username = "farukh.mushtaq@gmail.com"
-password ="kcfkmnjfqennwjpt"
-context = ssl.create_default_context()
+import os
 
-reciever = "pakipcs@yahoo.com"
-# Following is format of message, Subject should be written
-# in same format. """\ is must. to avoid break for subject.
-message = """\
-Subject: This is Test Email From Python
-Aoa,
-This is 
-test email from Python web project, contact us page
-Regards
-Farukh Mushtaq
-"""
+def send_email(message):
 
-with smtplib.SMTP_SSL(host,port,context=context) as server:
-    server.login(username,password)
-    server.sendmail(username,reciever,message)
+    host = "smtp.gmail.com"
+    port = 465
+    username = "farukh.mushtaq@gmail.com"
+    # password = "gnqppvdkkavappzq"
+    password = os.getenv('PASSWORD')
+    context = ssl.create_default_context()
+    receiver = "farukh.mushtaq@gmail.com"
+    with smtplib.SMTP_SSL(host, port, context=context) as server:
+        server.login(username,password)
+        server.sendmail(username, receiver, message)
+
+
+if __name__ == '__main__':
+    raw_message = " i wnat to meet you"
+    receiver_email = "pakipcs@yahoo.com"
+    message = f"""Subject: Email Portfolio App\n
+    
+    Sent Following Message: {raw_message}
+    From: {receiver_email}
+        """
+    print("Sending Email...")
+    send_email(message)
+    print("Email Sent...")
